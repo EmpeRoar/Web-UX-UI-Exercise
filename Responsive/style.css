@@ -1,0 +1,23 @@
+.Img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    .Img {
+        width: 100%
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+}
