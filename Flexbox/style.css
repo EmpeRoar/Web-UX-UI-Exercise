@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bx-container {
+    display: flex;
+}
+.bx-item:first-child {
+    flex: 2;
+}
+.bx-item:last-child{
+    flex: 2;
+}
+.bx-item {
+    border: 1px solid green;
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
